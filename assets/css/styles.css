@@ -1,0 +1,48 @@
+/* ================ GOOGLE FONTS ================ */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: .2rem;
+}
+
+body {
+  text-align: center;
+  color: #fff;
+  font-family: 'Syne Mono', monospace;
+  background-color: #000;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  margin-top: 1rem;
+}
+
+p {
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+span {
+  display: inline-block;
+  background: green;
+  transition: .4s ease;
+  margin: 2rem 0 5rem 0;
+}
+
+span:hover {
+  font-size: 1.7rem;
+}
+
+h3 {
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: green;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
